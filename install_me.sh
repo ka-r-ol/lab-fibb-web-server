@@ -1,4 +1,4 @@
-echo Installation (dev env)
+echo Installation - dev env
 echo Prerequisite:  you have python3 and python-venv3 installed in your system
 
 python3 -m venv venv
