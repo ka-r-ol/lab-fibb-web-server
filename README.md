@@ -11,7 +11,9 @@ Prerequisites
 Install
 =======
 git clone https://github.com/ka-r-ol/lab-fibb-web-server.git
+
 cd lab-fibb-web-server
+
 chmod u+x install_me.sh && ./install_me.sh
 
 Run
