@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="755454DE-7BBD-4851-8FFF-F750A3B4192F">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="414.763062,203.557831" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Manager
+(Server)</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <PointsToNoteIDs>10</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="564.429749,270.455536" Width="171.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Farma serwerów (Workerów)</String>
+        </Note>
+        <Note ID="3" FontSize="21.0" Position="580.338196,58.649551" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Klient</String>
+            <ConnectedNoteIDs>18, 25-26</ConnectedNoteIDs>
+            <PointsToNoteIDs>25</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="200.923935,345.052094" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Worker1</String>
+            <ConnectedNoteIDs>10-11</ConnectedNoteIDs>
+            <PointsToNoteIDs>11</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="297.752167,346.179901" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Worker2</String>
+            <ConnectedNoteIDs>10-11</ConnectedNoteIDs>
+            <PointsToNoteIDs>11</PointsToNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="397.0,349.645477" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Worker3</String>
+            <ConnectedNoteIDs>10-11</ConnectedNoteIDs>
+            <PointsToNoteIDs>11</PointsToNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="493.200073,348.372986" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Worker4</String>
+            <ConnectedNoteIDs>10-11</ConnectedNoteIDs>
+            <PointsToNoteIDs>11</PointsToNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="579.176392,347.363464" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Worker5</String>
+            <ConnectedNoteIDs>10-11</ConnectedNoteIDs>
+            <PointsToNoteIDs>11</PointsToNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="337.750488,285.639221" Width="229.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.87775 0.828268 0.562122</Border>
+                <Fill>0.975278 0.920298 0.62458</Fill>
+            </Appearance>
+            <String>dystrybucja obliczeń między workerami</String>
+            <ConnectedNoteIDs>1, 4-8</ConnectedNoteIDs>
+            <PointsToNoteIDs>4-8</PointsToNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="424.850342,411.327026" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.87775 0.828268 0.562122</Border>
+                <Fill>0.975278 0.920298 0.62458</Fill>
+            </Appearance>
+            <String>Odkłada wynik do bazy</String>
+            <ConnectedNoteIDs>4-8, 20</ConnectedNoteIDs>
+            <PointsToNoteIDs>20</PointsToNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="663.548523,19.996887" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Internet</String>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="744.462402,252.688599" Width="151.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Portal Fibo (Raporty)
+(Server)</String>
+            <ConnectedNoteIDs>19, 31</ConnectedNoteIDs>
+            <PointsToNoteIDs>31</PointsToNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="620.079712,144.168625" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.87775 0.828268 0.562122</Border>
+                <Fill>0.975278 0.920298 0.62458</Fill>
+            </Appearance>
+            <String>Przekazanie wyników</String>
+            <ConnectedNoteIDs>3, 31</ConnectedNoteIDs>
+            <PointsToNoteIDs>3</PointsToNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="779.335388,359.082886" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.87775 0.828268 0.562122</Border>
+                <Fill>0.975278 0.920298 0.62458</Fill>
+            </Appearance>
+            <String>generuje raport</String>
+            <ConnectedNoteIDs>14, 20</ConnectedNoteIDs>
+            <PointsToNoteIDs>14</PointsToNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="716.208008,481.290283" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>Baza PostgreSQL</String>
+            <ConnectedNoteIDs>11, 19</ConnectedNoteIDs>
+            <PointsToNoteIDs>19</PointsToNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="833.072815,196.752213" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Intranet</String>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="430.807373,188.953003" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.668968 0.810267 0.895084</Border>
+                <Fill>0.743297 0.900297 0.994538</Fill>
+            </Appearance>
+            <String>API</String>
+            <ConnectedNoteIDs>25-26</ConnectedNoteIDs>
+            <PointsToNoteIDs>26</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="376.653137,125.073273" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Request</String>
+            <ConnectedNoteIDs>3, 24</ConnectedNoteIDs>
+            <PointsToNoteIDs>24</PointsToNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="485.543335,161.341156" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Response</String>
+            <ConnectedNoteIDs>3, 24</ConnectedNoteIDs>
+            <PointsToNoteIDs>3</PointsToNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="524.252869,115.626343" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.87775 0.828268 0.562122</Border>
+                <Fill>0.975278 0.920298 0.62458</Fill>
+            </Appearance>
+            <String>numer zlecenia</String>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="389.516235,158.499237" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.87775 0.828268 0.562122</Border>
+                <Fill>0.975278 0.920298 0.62458</Fill>
+            </Appearance>
+            <String>zlecenie</String>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="656.507507,192.317474" Width="108.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Biuro Obsługi Klienta FIBO.MATH</String>
+            <ConnectedNoteIDs>14, 18</ConnectedNoteIDs>
+            <PointsToNoteIDs>18</PointsToNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="12" Sticky="No" Position="486.097534,28.996887" Width="261.988647" Height="90.0">
+            <Appearance>
+                <Border Weight="1" Style="Cloud"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="21" Sticky="No" Position="153.0,209.0" Width="749.0" Height="310.0">
+            <Appearance>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="22" Sticky="No" Position="189.0,279.0" Width="536.0" Height="172.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <AutoFit>1-4, 6-8, 11, 13, 18-20, 23-26, 30</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="26CF3353-0242-4C8D-8284-AF5C105D5402" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.668968 0.810267 0.895084</BorderColor>
+            <FillColor>0.743297 0.900297 0.994538</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="582A1A15-9E1F-4ECE-8C41-7EA719AFB582" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.669411 0.885244 0.567003</BorderColor>
+            <FillColor>0.74379 0.983605 0.630003</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="AD304047-BB45-426E-80BA-062918CE6AB2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894548 0.707752 0.715898</BorderColor>
+            <FillColor>0.989117 0.814091 0.999474</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="BFE98331-F266-40E0-8A8D-D060B9FCAEAE" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894548 0.707752 0.715898</BorderColor>
+            <FillColor>0.993942 0.786391 0.795442</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="370FB343-7B82-4EC9-9E6B-34A3D30D0905" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.87775 0.828268 0.562122</BorderColor>
+            <FillColor>0.975278 0.920298 0.62458</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="4A813C35-4B79-42E2-ABCA-5CC30825AB6A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="156BDE30-1D8B-47DF-9CC3-E6B054D2BE74" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <NoteXPadding>8.0</NoteXPadding>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

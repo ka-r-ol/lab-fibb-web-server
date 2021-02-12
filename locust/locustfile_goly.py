@@ -3,7 +3,7 @@ import urllib3
 
 # HOST = "http://107.22.65.34:8080"
 # HOST = "http://localhost:8080"
-HOST = "http://karol-webservers-lb-1051944747.eu-central-1.elb.amazonaws.com:8080"
+HOST = "http://3.127.136.141:8080"
 
 # https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
 urllib3.disable_warnings()
