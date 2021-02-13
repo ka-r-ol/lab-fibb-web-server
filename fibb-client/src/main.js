@@ -10,12 +10,13 @@ Vue.use(Vuex)
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-//import axios from "axios";
 
 Vue.config.productionTip = false
 
 const store = new Vuex.Store({
-  state: {},
+  state: {
+    resultsAvailable: false
+  },
   mutations: {
     // store.commit('set_contact_params', {fname:"?", lname:"?", email:"?"})
     set_contact_params(state) {
@@ -23,6 +24,9 @@ const store = new Vuex.Store({
       Cookies.set('fib_lname', state.lname)
       Cookies.set('fib_email', state.email)
     }
+  },
+  getters: {
+    results_are_available: state => { return state.resultsAvailable }
   }
 }
 )
@@ -32,7 +36,9 @@ new Vue({
   mounted() {
     //Cookies.set("test", "to jest testowe ciasteczko")
 
-    store.state.BASE_API_URL = "http://127.0.0.1:8000/api/v1/"
+    let BASE_API_URL = "https://k2lzwh7qzj.execute-api.eu-central-1.amazonaws.com/alpha"
+    store.state.results_url = BASE_API_URL + '/results'
+    store.state.place_order_url = BASE_API_URL + '/place_order'
     store.state.fname = Cookies.get('fib_fname')
     store.state.lname = Cookies.get('fib_lname')
     store.state.email = Cookies.get('fib_email')

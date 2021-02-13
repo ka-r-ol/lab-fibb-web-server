@@ -71,6 +71,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "PlaceOrder",
   data: function () {
@@ -88,14 +90,35 @@ export default {
       event.preventDefault();
       this.place_order_flag = this.place_order_flag == 1 ? 0 : 1;
       this.$store.commit("set_contact_params");
-      alert(
-        "this is placeholder for sending your request for " +
-          this.$store.fname +
-          " " +
-          this.$store.lname +
-          " requesting " +
-          this.fib_idx +
-          " Fibonacci number."
+
+      const data = {
+        e_mail: "cost@example.pl",
+        fib_index: 4,
+        firstname: "Jan",
+        lastname: "Kowalski",
+      };
+      const headers = {
+        "Content-Type": "application/json",
+      };
+      const url = this.$store.state.place_order_url;
+
+      axios.post(url, data, { headers: headers }).then(
+        (res) => {
+          const body = JSON.parse(res.data.body);
+          console.log(body);
+          alert(
+            "Request status: " +
+              body.status +
+              "\nRequested fibonacci number: " +
+              this.fib_idx +
+              "\nRequest id: " +
+              body.id
+          );
+        },
+        (err) => {
+          alert("Place Order API Error response: " + err);
+          console.log("Place Order API response: ", err);
+        }
       );
     },
   },
