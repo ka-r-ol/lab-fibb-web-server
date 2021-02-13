@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/fib.png" width="30%" />
+    <FibWorld msg="Welcome to Fibonacci World!" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FibWorld from "./components/FibWorld.vue";
 
 export default {
-  name: 'App',
+  name: "Fibb.Math",
   components: {
-    HelloWorld
-  }
-}
+    FibWorld,
+  },
+};
 </script>
 
 <style>
