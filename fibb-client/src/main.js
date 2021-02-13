@@ -15,7 +15,8 @@ Vue.config.productionTip = false
 
 const store = new Vuex.Store({
   state: {
-    resultsAvailable: false
+    resultsAvailable: false,
+    results: {}
   },
   mutations: {
     // store.commit('set_contact_params', {fname:"?", lname:"?", email:"?"})
@@ -23,10 +24,16 @@ const store = new Vuex.Store({
       Cookies.set('fib_fname', state.fname)
       Cookies.set('fib_lname', state.lname)
       Cookies.set('fib_email', state.email)
+    },
+    declare_results_are_unavailable(state) {
+      state.resultsAvailable = false;
+    },
+    declare_results_are_available(state) {
+      state.resultsAvailable = true;
     }
   },
   getters: {
-    results_are_available: state => { return state.resultsAvailable }
+    check_results_are_available: state => { return state.resultsAvailable }
   }
 }
 )
