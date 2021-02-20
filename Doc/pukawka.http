@@ -1,0 +1,21 @@
+###
+POST https://k2lzwh7qzj.execute-api.eu-central-1.amazonaws.com/alpha_3/results
+Content-Type: application/json
+
+{
+    "e_mail":"dupa@d.com"
+
+}
+
+
+###
+POST https://k2lzwh7qzj.execute-api.eu-central-1.amazonaws.com/alpha_3/place_order
+Content-Type: application/json
+
+{
+    "e_mail":"dupa@d.com",
+    "fibb_index": 4,
+    "firstname": "Jan",
+    "lastname": "Kowalski"
+
+}

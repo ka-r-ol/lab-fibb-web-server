@@ -92,10 +92,10 @@ export default {
       this.$store.commit("set_contact_params");
 
       const data = {
-        e_mail: "cost@example.pl",
-        fib_index: 4,
-        firstname: "Jan",
-        lastname: "Kowalski",
+        e_mail: this.$store.state.email,
+        fibb_index: this.fib_idx,
+        firstname: this.$store.state.fname,
+        lastname: this.$store.state.lname,
       };
       const headers = {
         "Content-Type": "application/json",
@@ -104,15 +104,16 @@ export default {
 
       axios.post(url, data, { headers: headers }).then(
         (res) => {
-          const body = JSON.parse(res.data.body);
-          console.log(body);
+          const orderId = res.data.order_id;
+          const statusCode = res.data.statusCode;
+          console.log(orderId, statusCode);
           alert(
             "Request status: " +
-              body.status +
+              statusCode +
               "\nRequested fibonacci number: " +
               this.fib_idx +
               "\nRequest id: " +
-              body.id
+              orderId
           );
         },
         (err) => {

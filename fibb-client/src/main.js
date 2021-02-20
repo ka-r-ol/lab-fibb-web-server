@@ -43,7 +43,7 @@ new Vue({
   mounted() {
     //Cookies.set("test", "to jest testowe ciasteczko")
 
-    let BASE_API_URL = "https://k2lzwh7qzj.execute-api.eu-central-1.amazonaws.com/alpha"
+    let BASE_API_URL = "https://k2lzwh7qzj.execute-api.eu-central-1.amazonaws.com/alpha_3"
     store.state.results_url = BASE_API_URL + '/results'
     store.state.place_order_url = BASE_API_URL + '/place_order'
     store.state.fname = Cookies.get('fib_fname')
