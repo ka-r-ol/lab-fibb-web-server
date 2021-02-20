@@ -10,7 +10,7 @@ Content-Type: application/json
 
 ###
 POST https://k2lzwh7qzj.execute-api.eu-central-1.amazonaws.com/alpha_3/place_order
-Content-Type: application/json
+Content-Type: text/plain
 
 {
     "e_mail":"dupa@d.com",

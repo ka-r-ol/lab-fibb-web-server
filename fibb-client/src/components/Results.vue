@@ -63,7 +63,7 @@ export default {
         e_mail: this.$store.state.email,
       };
       const headers = {
-        "Content-Type": "application/json",
+        "Content-Type": "text/plain",
       };
       const url = this.$store.state.results_url;
 

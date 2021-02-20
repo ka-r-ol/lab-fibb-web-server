@@ -98,7 +98,8 @@ export default {
         lastname: this.$store.state.lname,
       };
       const headers = {
-        "Content-Type": "application/json",
+        "Content-Type": "text/plain",
+        "Access-Control-Allow-Origin": "*",
       };
       const url = this.$store.state.place_order_url;
 
